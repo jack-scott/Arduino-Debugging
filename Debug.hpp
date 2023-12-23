@@ -4,6 +4,10 @@
 // Uncomment this line to flush the output after each debug statement
 // #define FLUSH_ON_EVERY_DEBUG_STATEMENT
 
+// Comment to add printstream functions and dependancy
+#define PRINTSTREAM_FALLBACK
+
+
 #ifdef FLUSH_ON_EVERY_DEBUG_STATEMENT
 #define ENDL endl
 #else
